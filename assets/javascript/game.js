@@ -87,11 +87,17 @@ connectionsRef.on("value", function(snapshot) {
 
 	};
 
+	
+
+
+
 function resetGame(){
 
 }
 
-
+//database.ref("/connections/player-one").on("value", function(snapshot){
+	//database.ref("/connections/player-one")
+//});
 
 
 $(document).ready(function(){
